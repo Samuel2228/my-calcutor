@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    border: 1px solid rgba(0, 15, 63, 0.788);
+    margin: auto;
+    height: 90vh;
+    margin: auto;
+    width: 450px;
+    margin-top: 20px;
+    max-height: 90vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: darkblue;
+    cursor: pointer;
+    box-shadow: 0 0 30px #000000;
+}
+
+
+.container-cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+.inner-cont{
+    border: 2px solid gray;
+    background-color: gray;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.main{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* .item-1{
+    border: 1px solid red;
+    display: block;
+    justify-content: left;
+} */
+
+.p-fam{
+    border: 1px solid;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+}
+
+
+.item-2{
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    /* color: gray; */
+    border: none;
+}
+
+
+.item-2:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+
+.cal-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.btns{
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    /* color: white; */
+}
+
+
+.btns:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.enter-btn{
+    width: 90px;
+    height: 90px;
+    border-radius: 40%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+
+.enter-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.key-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.keys{
+    width: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: gray;
+    border: none;
+}
+
+
+.keys:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.selector-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.select{
+    width: 40px;
+    border-radius: 6px;
+    font-size: x-small;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+
+.select:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.key-control{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    border: none;
+}
+
+
+
+.key-tab{
+    width: 40px;
+    border-radius: 6px;
+    font-size: x-small;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+
+.key-tab:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+
+.main-key-select{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.key-select{
+    width: 40px;
+    border-radius: 6px;
+    font-size: x-small;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+
+.key-select:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.number-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.number-keys{
+    height: 30px;
+    width: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: x-small;
+    margin-top: 10px;
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+
+.number-keys:hover{
+    background-color: black;
+    cursor: pointer;
+}
+   
+    
+
+.btn-div {
+    position: relative;
+}
+
+
+.a-z{
+    background-color: red;
+
+}
+
+
+
+
+.p-tag{
+    position: absolute;
+    top: -7px;
+    
+}
+
+
+.second-keys{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.numeric-keys{
+    height: 30px;
+    width: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: x-small;
+    margin-top: 5px;
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+
+.numeric-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.numeric-keys:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.numbers{
+    height: 30px;
+    width: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: x-small;
+    margin-top: 5px;
+    background-color: gray;
+    border: none;
+    color: white;
+    /* position: relative; */
+}
+
+
+.numbers:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.number-para{
+    position: absolute;
+    top: -4px;
+    font-size: xx-small;
+    
+    
+}
+
+
+.numbers{
+    position: relative;
+}
+
+
+.bottom-numbers-keys{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.bottom-keys{
+    height: 30px;
+    width: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: x-small;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+
+.bottom-keys:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.inner-cont:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
